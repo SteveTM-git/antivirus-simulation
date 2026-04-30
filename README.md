@@ -32,39 +32,5 @@ A Python-based antivirus simulation that detects malicious files using SHA-256 h
 
 ---
 
-## 📂 Project Structure
-antivirus_sim/
-│── scanner.py # Main scanning engine
-│── hasher.py # SHA-256 hashing
-│── utils.py # File handling & quarantine logic
-│── logger.py # Logging system
-│── signatures.json # Malware signature database
-│── quarantine/ # Isolated malicious files
----
 
-## ▶️ Usage
-
-```bash
-python scanner.py <directory_path>
-Example:
-python scanner.py .
-📄 Sample Output
-[FILE] ./test.txt
-SHA256: 2cf24dba5...
-MALICIOUS FILE DETECTED!
-Moved to quarantine: quarantine/test.txt
-Disclaimer
-This project is for educational purposes only.
-It demonstrates signature-based detection and does not replace real antivirus software.
-🛠️ Tech Stack
-Python
-File System Handling
-Cryptographic Hashing (SHA-256)
-🚀 Future Improvements
-Real-time file monitoring
-Heuristic-based detection
-GUI dashboard
-Integration with threat intelligence APIs
-
----
 
