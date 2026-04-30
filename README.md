@@ -1,6 +1,6 @@
-# 🛡️ Basic Antivirus Simulation (Signature-Based Scanner)
+# 🛡️ Basic Antivirus Simulation (Signature Based Scanner)
 
-A Python-based antivirus simulation that detects malicious files using SHA-256 hash comparison and isolates them using a quarantine mechanism.
+A Python based antivirus simulation that detects malicious files using SHA-256 hash comparison and isolates them using a quarantine mechanism.
 
 ---
 
@@ -8,7 +8,7 @@ A Python-based antivirus simulation that detects malicious files using SHA-256 h
 
 - 🔍 Recursive file scanning
 - 🔐 SHA-256 hashing for file fingerprinting
-- 🚨 Signature-based malware detection
+- 🚨 Signature based malware detection
 - 📦 Automatic quarantine of infected files
 - 📜 Logging system for audit and traceability
 
